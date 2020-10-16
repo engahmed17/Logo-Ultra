@@ -1,29 +1,5 @@
-/*
-    1- Common Styles
-    2- General Styles
-    3- Sections
-        3.0 Header Section
-        3.1 Home Section 
-        3.2 About Section 
-        3.3 Portfolio Section 
-        3.4 Service Section 
-        3.5 Prices Section 
-        3.6 Team Section 
-        3.7 Blog Page
-        3.8 Contact Section
-        3.9 Footer Section 
-*/
 
-
-/* 1- Common styles */
-/*
-    - overlay
-    - opacity hover
-    - section header
-    - section padding
-    - hover effect 1 ( left to right )
-    - hover effect 2 ( top to bottom ) 
-*/
+/* Common styles */
 .overlay {
     position: absolute;
     width: 100%;
@@ -77,7 +53,7 @@
 
 
 
-/* 2- General Css Styles */
+/* General Css Styles */
 * {
     margin: 0;
     padding: 0;
@@ -142,16 +118,11 @@ a {
 }
 
 /* 3- Sections Styles */
-/* 3.0 Header Section */
 .header {
     position: fixed;
     width: 100%;
     z-index: 10;
     background: rgba(0,0,0,0.4);
-}
-
-.header-content {
-    /* overflow: hidden; to solve float problem */
 }
 
 .header .logo {
@@ -236,7 +207,7 @@ a {
 .home {
     height: 100vh;
     background-image: url(../images/background/background1.webp);
-    background-size: cover; /* css3 */ 
+    background-size: cover;
     position: relative;
 }
 
@@ -279,11 +250,6 @@ a {
 .home .btn-learn {
     background-color: var(--mainColor);
     color: #fff;
-}
-
-/* About Section */
-.about {
-    
 }
 
 .about-content {
@@ -460,9 +426,6 @@ a {
     color: #fff;
 }
 /* Prices Section */
-.pricing {
-
-}
 
 .pricing-plans {
     overflow: hidden;
@@ -531,11 +494,9 @@ a {
     color: #fff;
 }
 
-
 .pricing-item:hover .pricing-item-text {
     color: var(--mainColor);
 }
-
 
 /*testimonail section */
 .testimonail {
@@ -583,10 +544,6 @@ a {
     font-size: 17px;
 }
 /* Team Section */
-
-.team {
-
-}
 
 .team-content {
     overflow: hidden;
@@ -721,9 +678,6 @@ a {
     color: var(--mainColor);
 }
 /* Contact Section */
-.contact {
-
-}
 
 .getintouch-items {
     overflow: hidden;
