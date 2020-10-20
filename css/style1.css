@@ -1,8 +1,4 @@
-/*
-    ===============================
-            Public Styles
-    ===============================
-*/
+/* Public Styles */
 
 * , *:after , *:before {
     margin: 0;
@@ -22,11 +18,7 @@ body {
     margin-bottom: 20px
 }
 
-/*
-    ===============================
-            Navbar Styles
-    ===============================
-*/
+/* Navbar Styles */
 
 .navbar {
     padding: 20px 0;
@@ -124,11 +116,7 @@ body {
     }
 }
 
-/*
-    ===============================
-            Home Styles
-    ===============================
-*/
+/* Home Styles */
 .home {
     height: 500px;
     background: url('../images/Home/home-bg.jpg');
@@ -184,8 +172,6 @@ body {
     color: #eb5424
 }
 
-
-
 @media (max-width:768px) {
     .home .home-information .home-title {
         font-size: 40px;
@@ -207,11 +193,7 @@ body {
     }
 }
 
-/*
-    ===============================
-            Work Styles
-    ===============================
-*/
+/* Work Styles */
 .work {
     height: auto;
     padding: 50px 0;
@@ -285,11 +267,7 @@ body {
     }
 }
 
-/*
-    ===============================
-            Portfolio Styles
-    ===============================
-*/
+/* Portfolio Styles */
 
 .portfolio {
     background: #f8f8f8;
@@ -379,11 +357,7 @@ body {
 }
 
 
-/*
-    ===============================
-       Profile + Skills Styles
-    ===============================
-*/
+/* Profile + Skills Styles */
 
 .profile_skills {
     padding: 50px 0;
@@ -492,11 +466,7 @@ body {
     }
 }
 
-/*
-    ===============================
-            Creative Styles
-    ===============================
-*/
+/* Creative Styles */
 
 .creative {
     height: 500px;
@@ -552,11 +522,7 @@ body {
     }
 }
 
-/*
-    ===============================
-            Socail Styles
-    ===============================
-*/
+/* Socail Styles */
 
 .social-media {
     height: auto;
@@ -617,11 +583,7 @@ body {
     }
 }
 
-/*
-    ===============================
-            Drop Styles
-    ===============================
-*/
+/* Drop Styles */
 
 .drop {
     padding: 50px 0;
@@ -697,11 +659,7 @@ body {
     }
 }
 
-/*
-    ===============================
-            Drop Styles
-    ===============================
-*/
+/* Drop Styles */
 
 .footer {
     text-align: center;
@@ -711,19 +669,3 @@ body {
 .footer p {
     color: #888
 }
-
-
-/*
-
-
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575px) { ... }
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767px) { ... }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199px) { ... }
